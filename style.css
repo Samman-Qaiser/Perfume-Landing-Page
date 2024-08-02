@@ -1,0 +1,228 @@
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Product Sans';
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    /* background-color: #EFC7C5; */
+    top:0;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    padding:0 1rem;
+    z-index: 99;
+    
+  
+}
+nav h4{
+    font-weight: 100;
+}
+/* nav div{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+} */
+nav i{
+    background-color: white;
+    color: black;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.con{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.page1{
+    background-color: #EFC7C5;
+    width: 100%;
+    height: 100vh;
+
+position: absolute;
+overflow: hidden;
+}
+.page1-con{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    display: flex;
+   margin-top: 4rem;
+   left:0%;
+}
+.pink-grass{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* bottom:-20%; */
+    z-index: 1;
+}
+
+.page1-left{
+width: 50%;
+height: 90%;
+
+box-sizing: border-box;
+padding: 0 2rem;
+font-family: 'TRIAL Rooftop';
+font-size: 1.2rem;
+z-index: 3;
+display: flex;
+
+flex-direction: column;
+justify-content: space-between;
+}
+.page1-left h1{
+    font-size: 8vw;
+    line-height: 5rem;
+    overflow: hidden;
+}
+.page1-left h1 span{
+    display: inline-block;
+}
+.page1-bottle{
+ width: 20%;
+ height: 70%;
+ display: flex;
+ justify-content: center;
+ z-index: 3;
+ align-items: flex-start;
+ margin-bottom: 2rem;
+
+ overflow-y: hidden;
+ scrollbar-width: none;
+
+}
+.sakura{
+  
+ 
+  transform: translateY(-10%);
+  
+}
+.long-con{
+    position: absolute;
+    left: 60%;
+    top:40%;
+    z-index: 4;
+width:200px;
+height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+  
+}
+.l2{
+    left:10%
+}
+.long{
+       width: 100%;
+       height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.653);
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    backdrop-filter: blur(5px);
+   
+}
+.long:nth-child(1){
+    width: 75%;
+}
+.long i{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page2{
+    background-color: rgb(46, 44, 44);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+ 
+/* right: -150%; */
+   left:40%;
+   bottom: -20%;
+   transform:scaleX(0.1) scaleY(0.3);
+   border-radius:"2rem"
+
+    
+}
+.page2 nav{
+
+    z-index: 797;
+}
+.page2-left{
+    margin-top: 4rem;
+    width: 50%;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    font-family: 'TRIAL Rooftop';
+    font-size: 1.2rem;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  
+}
+.long-conc2{
+   
+    z-index: 4;
+width:450px;
+height: 100px;
+    display: flex;
+
+    justify-content: space-evenly;
+    overflow: hidden;
+    scrollbar-width: none;
+    
+}
+.long-conc2 .long{
+    width: 40%;
+}
+.page2-bottle1{
+    width: 20%;
+    height: 90%;
+    margin-top: 4rem;
+
+    rotate: 300deg;
+   background-image: url(black.png);
+   background-size: cover;
+   background-position: center;
+}
+.page2-bottle2{
+    width: 20%;
+    height: 90%;
+    transform: translateY(36%) translateX(40%);
+
+    rotate: 120deg;
+   background-image: url(black.png);
+   background-size: cover;
+   background-position: center;
+}
